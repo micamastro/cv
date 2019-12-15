@@ -3170,6 +3170,7 @@ h5,
     font-size: 1.57em;
     line-height: 1.4em;
     margin-bottom: 15px;
+    text-transform: none;
 }
 
 h6,
