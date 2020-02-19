@@ -7556,11 +7556,19 @@ Created using IcoMoon - icomoon.io
 /* Experience Style */
 
 .cc-experience .cc-experience-header {
-    padding-top: 60px;
+    padding-top: 20px;
     padding-right: 0;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
+}
+
+.cc-experience .company-logo {
+    filter: grayscale(1);
+    border-radius: 50%;
+    max-width: 25%;
+    margin-bottom: 11px;
+    padding: 5px;
 }
 
 
