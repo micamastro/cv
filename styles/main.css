@@ -7492,7 +7492,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .cc-profile-image img {
-    object-fit: contain;
+    object-fit: cover;
     position: relative;
     border-radius: 50%;
     height: 180px;
