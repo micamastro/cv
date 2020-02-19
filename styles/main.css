@@ -3671,6 +3671,7 @@ body {
     height: 27px;
     outline: 0;
     cursor: pointer;
+    z-index: 5001;
 }
 
 .navbar .navbar-toggler.navbar-toggler-left {
@@ -5965,16 +5966,16 @@ Created using IcoMoon - icomoon.io
         top: 0;
         height: 100% !important;
         width: 300px;
-        right: 0;
-        z-index: 1032;
+        left: -300px;
+        /*z-index: 1032;*/
         visibility: visible;
         background-color: #999;
         overflow-y: visible;
         border-top: none;
         text-align: left;
         max-height: none !important;
-        -webkit-transform: translate3d(300px, 0, 0);
-        transform: translate3d(300px, 0, 0);
+        -webkit-transform: translate3d(-300px, 0, 0);
+        transform: translate3d(0, 0, 300px);
         -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
         transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     }
@@ -5985,7 +5986,7 @@ Created using IcoMoon - icomoon.io
         /* For Opera 11.1 to 12.0 */
         /* For Firefox 3.6 to 15 */
         background: -webkit-gradient(linear, left top, left bottom, from(#27b5ae), color-stop(80%, #000));
-        background: linear-gradient(#27b5ae 0%, #000 80%);
+        background: linear-gradient(#27b5ae 60%, #000 99%);
         /* Standard syntax (must be last) */
         opacity: 0.76;
         filter: alpha(opacity=76);
@@ -6322,7 +6323,7 @@ Created using IcoMoon - icomoon.io
     }
     .nav-open .sidebar-collapse .navbar-collapse {
         -webkit-transform: translate3d(0px, 0, 0);
-        transform: translate3d(0px, 0, 0);
+        transform: translate3d(300px, 0, 0);
     }
     .nav-open .sidebar-collapse .wrapper {
         -webkit-transform: translate3d(-150px, 0, 0);
