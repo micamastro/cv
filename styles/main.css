@@ -1570,8 +1570,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-    background-color: #373741;
-    color: #FFFFFF;
+    background-color: #e1d8cf;
+    color: #373741;
 }
 
 .btn-primary:hover,
@@ -1585,7 +1585,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-    background-color: #868690;
+    background-color: #c3bab1;
     color: #FFFFFF;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -3725,7 +3725,7 @@ body {
 }
 
 .bg-primary {
-    background-color: #373741 !important;
+    background-color: #e1d8cf !important;
 }
 
 .bg-info {
@@ -7559,7 +7559,7 @@ Created using IcoMoon - icomoon.io
     padding-top: 20px;
     padding-right: 0;
     text-align: center;
-    color: #fff;
+    color: #373741;
     text-transform: uppercase;
 }
 
@@ -7582,7 +7582,7 @@ Created using IcoMoon - icomoon.io
     padding-top: 60px;
     padding-right: 0;
     text-align: center;
-    color: #fff;
+    color: #373741;
 }
 
 
@@ -7682,4 +7682,12 @@ a.credit {
 
 .section {
     padding-bottom: 0;
+}
+
+nav.navbar.navbar-expand-lg.fixed-top.bg-primary.navbar-transparent a.nav-link.custom.smooth-scroll {
+    color: #FFFFFF;
+}
+
+a.nav-link.custom.smooth-scroll {
+    color: #373741;
 }
