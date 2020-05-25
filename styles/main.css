@@ -7700,3 +7700,7 @@ a.nav-link.custom.smooth-scroll {
 input.form-control::placeholder {
     color: #555555;
 }
+
+textarea.form-control::placeholder {
+    color: #555555;
+}
