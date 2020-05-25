@@ -7691,3 +7691,12 @@ nav.navbar.navbar-expand-lg.fixed-top.bg-primary.navbar-transparent a.nav-link.c
 a.nav-link.custom.smooth-scroll {
     color: #373741;
 }
+.cc-contact-information{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+input.form-control::placeholder {
+    color: #555555;
+}
