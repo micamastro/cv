@@ -3116,6 +3116,7 @@ small {
 
 a {
     color: #373741;
+    text-decoration: underline;
 }
 
 a:hover,
