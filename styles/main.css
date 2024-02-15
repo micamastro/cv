@@ -3116,6 +3116,9 @@ small {
 
 a {
     color: #373741;
+}
+
+a.inline-text {
     text-decoration: underline;
 }
 
